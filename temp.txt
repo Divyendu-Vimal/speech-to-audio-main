@@ -1,0 +1,28 @@
+const text = `genrate a patient report : in json key value pair : based on the converstation we had {
+        "conversation": [
+          {
+            "role": "patient",
+            "message": "Hello, Doctor. I've been experiencing persistent headaches for the past few weeks. They usually start in the morning and can last all day. I’ve also noticed some dizziness and occasional nausea. I haven’t had any major changes in my diet or routine recently. What could be causing these symptoms, and what should I do about them?"
+          },
+          {
+            "role": "doctor",
+            "message": "Hello! I’m sorry to hear that you’re feeling unwell. Let’s discuss your symptoms in more detail. Can you describe the headaches? For example, are they sharp, throbbing, or dull? Do they occur in a specific part of your head, or are they more generalized? Also, have you had any recent stress or changes in your sleeping patterns? Are there any other symptoms, such as visual disturbances or sensitivity to light? This information will help us determine the possible causes and decide on the best course of action."
+          },
+          {
+            "role": "patient",
+            "message": "The headaches are mostly throbbing and occur around my forehead. I haven’t noticed any visual disturbances, but I do feel sensitive to light when the headaches are severe. My sleep has been a bit irregular lately because of work stress. I also started using a new screen for long hours recently. Could that be related?"
+          },
+          {
+            "role": "doctor",
+            "message": "Thank you for providing that information. It’s possible that your headaches could be related to tension or eye strain from extended screen use, especially if you’re not taking regular breaks. However, there are several potential causes for headaches and dizziness, so it’s important to rule out other conditions. I recommend scheduling a comprehensive eye exam and considering stress management techniques. In some cases, imaging tests or blood work might be needed if the symptoms persist or worsen. Let’s start with these steps and see how you feel after addressing these factors."
+          },
+          {
+            "role": "patient",
+            "message": "That sounds like a good plan. I’ll make sure to get an eye exam and try to manage my stress better. What else should I keep in mind while we figure this out?"
+          },
+          {
+            "role": "doctor",
+            "message": "In addition to the eye exam and stress management, try to maintain a consistent sleep schedule and take regular breaks from screen time. Keep track of your headache frequency, duration, and any other symptoms. If you experience any new or worsening symptoms, please contact me as soon as possible. We’ll follow up to reassess your condition and adjust our approach if necessary."
+          }
+        ]
+      }"`
