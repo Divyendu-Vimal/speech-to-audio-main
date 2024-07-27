@@ -8,7 +8,7 @@ const API_KEY = "AIzaSyDH6IhraRmv60SqTfCJ1SDJ4ecJdturVZk";
 
 const app = express();
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 app.use(bodyParser.json()); // Middleware to parse JSON bodies
 
